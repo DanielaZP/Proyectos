@@ -30,3 +30,38 @@ body{
     padding: 40px 0;
     margin: 0 2rem;
 }
+
+.header img {
+    width: 190px;
+    padding-bottom: 20px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-text h1{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.hero-text p{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.hero-text a{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 13px 50px;
+    border-radius: 25px;
+    box-shadow: 0 8px 17px -8px rgba(0, 0, 0, .8);
+    transition: all .3s ease;
+}
