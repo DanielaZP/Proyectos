@@ -114,3 +114,33 @@ header {
       font-size: 26px;
     }
   }
+
+.content .button {
+    width: 250px;
+    height: 65px;
+    border-radius: 30px;
+    border: transparent;
+    color: hsl(257, 40%, 49%);;
+    font-size: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 17px -8px rgba(0, 0, 0, .8);
+    outline: none;
+  }
+
+  @media (min-width: 768px) {
+    .content .button {
+      font-size: 20px;
+    }
+  }
+
+  .content .button:hover {
+    transition: 0.3s;
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    margin: 38px auto;
+  }
