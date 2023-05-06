@@ -144,3 +144,42 @@ header {
     justify-content: center;
     margin: 38px auto;
   }
+
+@media (min-width: 768px) {
+    .icons {
+      position: absolute;
+      right: 50px;
+      bottom: 20px;
+      margin: 0;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .icons {
+      position: absolute;
+      right: 100px;
+      bottom: 40px;
+      margin: 0;
+      
+    }
+  }
+
+  .icons .fab {
+    font-size: 20px;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 30px;
+    text-align:center;
+  }
+
+  .icons .fab:last-of-type {
+    margin-right:0px;
+  }
+
+  .icons :hover{
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+  }
